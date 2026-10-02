@@ -1,0 +1,31 @@
+table,column,description
+customers,customer_id,Unique customer identifier
+customers,customer_name,Customer full name
+customers,gender,Customer gender
+customers,age,Customer age
+customers,city/state/region,Customer geography
+customers,signup_date,Customer registration date
+products,product_id,Unique product identifier
+products,product_name,Product name
+products,category/subcategory,Product hierarchy
+products,cost_price,Unit cost
+products,selling_price,Listed selling price
+stores,store_id,Unique store identifier
+stores,store_name,Store name
+stores,city/state/region,Store geography
+orders,order_id,Unique order identifier
+orders,customer_id,Customer foreign key
+orders,store_id,Store foreign key
+orders,order_date,Order date
+orders,payment_method,Payment channel
+order_items,order_item_id,Unique order-line identifier
+order_items,order_id,Order foreign key
+order_items,product_id,Product foreign key
+order_items,quantity,Units purchased
+order_items,unit_price,Actual unit price
+order_items,discount,Discount fraction
+returns,return_id,Unique return identifier
+returns,order_id,Returned order
+returns,product_id,Returned product
+returns,return_date,Return date
+returns,reason,Return reason
